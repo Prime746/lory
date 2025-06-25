@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declan</title>
+    <link rel="stylesheet" href="mp.css">
+    <link rel="icon" type="png" href="images/favicon.png">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background: pink;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+}
+header h2{
+    color: seashell;
+    transition: color 0.3s ease;
+}
+header h2:hover{
+    color: black;
+}
+
+header nav a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: brown;
+}
+.lori{
+    padding: 5rem;
+    text-align: center;
+    border: 1px solid black;
+    background-image: url(images/jolibee.png);
+    font-size: large;
+    color: black;
+    text-decoration: aliceblue;
+}
+.lori button{
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    transition: transform 2s ease;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.menu{
+    background-color: rgba(250, 211, 217, 0.63);
+    padding: 2rem;
+}
+.menu .box{
+    display: flex;
+    border: none;
+    gap: 6rem;
+    justify-content: center;
+}
+.box div{
+    border: none;
+    width: 250px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: transform 1s ease;
+}
+.box div:hover{
+    transform: scale(1.04);
+}
+.box div image{
+    width: 180px;
+    height: 150px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.about{
+    background: rgb(247, 150, 166);
+    padding: 20px;
+    justify-content: center;
+}
+.about div{
+    margin-left: 2rem;
+}
+footer{
+    background: gray;
+    padding: 30px;
+}
+footer p{
+    margin-top: 1rem;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h2>Lhorybee time</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="lori">
+        <h3>Start your day with a Tasty Lhorybee foods po hihi</h3>
+        <button>Brew Now </button>
+    </section>
+    <section class="menu">
+    <h2>Must Try Items</h2>
+    <div class="box">
+        <div class="chicken">
+            <img src="images/chicken.png" alt="">
+            <p>Lhorybee Chicken</p>
+        </div>
+        <div >
+            <img src="images/spaghetti.png" alt="">
+            <p>Lhorybee Special spaghetti</p>
+        </div>
+        <div>
+            <img src="images/fries.png" alt="">
+            <p>Lhorybee french fries</p>
+        </div>
+    </div>
+        </section>
+        <section class="about">
+            <div>
+                <img src="images/about.png" alt="">
+            </div>
+            This is me tha Head of Pangasinan Jolibee organisation haha.
+        </section>
+        <footer>
+            <p>Mobile-no:9876543210</p>
+            <p>email:idkwhatisemailhuhu@gmail.com</p>
+            <p>&copy; 2025 Lhorybee-All rights reserved</p>
+        </footer>
+</body>
+</html>
